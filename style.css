@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url(2180133.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+}
+#containerA{
+    height: 90%;
+    width: 60%;
+    margin: 15%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 img{
+    height: 12vh;
+    width: 16vw;
+    margin-left: 3vw;
+    color: black;
+
+}
+#phone{
+    height: 100%;
+    width: 55%;
+
+}
+#form{    
+    height: 100%;
+    width: 45%;
+
+}
+#formA{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+    border: 1px black solid;
+    border-radius: 5px ;
+    background-color: rgba(92, 82, 231, 0.1);
+    
+    
+}
+.inputBox , #login{
+    margin: 5px;
+    border: 0;
+}
+.inputBox ::placeholder{
+    font-weight: 400;
+    font-size: 11px;
+    position: relative;
+    left: 3%;
+    
+}
+.inputBox input{
+    background: transparent;
+    color: white;
+    border-radius: 6px;
+    border: 1px white solid;
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255,0.2);
+
+}
+#login{
+    height: 2.5vw;
+    width: 20vw;
+    border-radius: 6px;
+    font-weight:600 ;
+    border: 0;
+    color: white;
+    background-color: rgb(76, 181, 249);
+    
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255,0.2);
+}
+
+#username,#password{
+    height: 2.5vw;
+    width: 20vw;
+}
+#or{
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#withFacebook{
+    text-align: center;
+    margin: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+
+    
+}
+#withFacebook a{
+    color: rgb(219, 134, 134);
+}
+a{
+    text-decoration: none;
+}
+#forgot{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight:200 ;
+    color: rgb(219, 134, 134);
+
+}
+#formB{
+    height: 10%;
+    width: 100%;
+    border: 0.5px black solid;
+    border-radius: 5px ;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    
+    background-color: rgba(92, 82, 231, 0.1);
+    
+    justify-content: center;
+    align-items: center;
+}
+#formB a{
+    text-decoration: none;
+    color: rgb(66, 149, 246);
+}
+#get{
+    height: 22%;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+    border: 1px black solid;
+    border-radius: 5px ;
+    
+    background-color: rgba(92, 82, 231, 0.1);
+}
+#get p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 13px;
+    font-weight: 400;
+}
+#pictures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pictures img{
+    height: 40px;
+    width: 110px;
+    margin: 15px;
+    
+}
+#phone img{
+    height: 100%;
+    width: 100%;
+}
+#pics{
+    display: flex;
+    height: 90%;
+    width: 100%;
+}
+#pic1{
+    background-image: url(photos/screenshot1.png);
+    background-position: center;
+}
+
+#pic2{
+    background-image: url(photos/screenshot2.png);
+    background-position: center;
+}
+
+#pic3{
+    background-image: url(photos/screenshot3.png);
+    background-position: center;
+}
+
+#pic4{
+    background-image: url(photos/screenshot4.png);
+    background-position: center;
+}
+#containerB{
+    display: block;
+    height: 20%;
+
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap:wrap;
+
+}
+#footer p{
+    margin: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(138, 115, 115);
+    font-weight: 200;
+}
+#withMeta{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(138, 115, 115);
+    font-weight: 200;
+}
+#withMeta p{
+    margin: 10px;
+}
+
+
+@media (max-width:800px){
+#containerA{
+    height: 100%;
+    width: 100%;
+   
+    
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+h1 img{
+    height: 80px;
+    width: 30vw;
+    color: black;
+    position: relative;
+    margin-left: 50px;
+    
+    
+
+}
+#phone{
+    display: none;
+
+}
+#form{    
+    height: 100%;
+    width: 80%;
+
+}
+#formA{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+    border: 1px black solid;
+    border-radius: 5px ;
+    background-color: rgba(92, 82, 231, 0.1);
+    
+}
+.inputBox , #login{
+    margin: 5px;
+    border: 0;
+}
+.inputBox ::placeholder{
+    font-weight: 400;
+    font-size: 11px;
+    position: relative;
+    left: 3%;
+    
+}
+.inputBox input{
+    background: transparent;
+    color: white;
+    border-radius: 6px;
+    border: 1px white solid;
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255,0.2);
+
+}
+#login{
+    height: 30px;
+    width: 250px;
+  border-radius: 6px;
+    font-weight:600 ;
+    border: 0;
+    color: white;
+    background-color: rgb(76, 181, 249);
+    
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255,0.2);
+}
+
+#username,#password{
+    height: 30px;
+    width: 250px;
+}
+#or{
+    font-size: 12px;
+    text-align: center;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#withFacebook{
+    text-align: center;
+    margin: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+
+    
+}
+#withFacebook a{
+    color: rgb(219, 134, 134);
+}
+a{
+    text-decoration: none;
+}
+#forgot{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight:200 ;
+    color: rgb(219, 134, 134);
+
+}
+#formB{
+    height: 10%;
+    width: 100%;
+    border: 0.5px black solid;
+    border-radius: 5px ;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    
+    background-color: rgba(92, 82, 231, 0.1);
+    
+    justify-content: center;
+    align-items: center;
+}
+#formB a{
+    text-decoration: none;
+    color: rgb(66, 149, 246);
+}
+#get{
+    height: 22%;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+    border: 1px black solid;
+    border-radius: 5px ;
+    
+    background-color: rgba(92, 82, 231, 0.1);
+}
+#get p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 13px;
+    font-weight: 400;
+}
+#pictures{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pictures img{
+    height: 40px;
+    width: 110px;
+    margin: 15px;
+    
+}
+#containerB{
+    display: block;
+    height: 20%;
+
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap:wrap;
+
+}
+#footer p{
+    margin: 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(138, 115, 115);
+    font-weight: 200;
+}
+#withMeta{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(138, 115, 115);
+    font-weight: 200;
+}
+#withMeta p{
+    margin: 10px;
+}
+  
+    }
