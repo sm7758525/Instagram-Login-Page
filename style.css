@@ -7,8 +7,9 @@ body,html{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    background-image: url(2180133.jpg);
-    background-position: initial;
+    background-image: url(wallpaper1.jpg);
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #containerA{
@@ -23,7 +24,7 @@ body,html{
 }
 h1 img{
     height: 12vh;
-    width: 16vw;
+    width: 13vw;
     margin-left: 3vw;
     color: black;
 
@@ -44,10 +45,10 @@ h1 img{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
-    border: 1px black solid;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18) ;
     border-radius: 5px ;
-    background-color: rgba(92, 82, 231, 0.1);
     
     
 }
@@ -123,7 +124,9 @@ a{
     width: 100%;
     border: 0.5px black solid;
     border-radius: 5px ;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18) ;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -146,8 +149,10 @@ a{
     padding: 20px;
     display: block;
     text-align: center;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
-    border: 1px black solid;
+    
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18) ;
     border-radius: 5px ;
     
     background-color: rgba(92, 82, 231, 0.1);
@@ -266,10 +271,9 @@ h1 img{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
-    border: 1px black solid;
-    border-radius: 5px ;
-    background-color: rgba(92, 82, 231, 0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18) ;
     
 }
 .inputBox , #login{
@@ -344,7 +348,10 @@ a{
     width: 100%;
     border: 0.5px black solid;
     border-radius: 5px ;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
+    
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18) ;
     margin-top: 10px;
     margin-bottom: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -352,9 +359,6 @@ a{
     font-weight: 400;
     text-align: center;
     display: flex;
-    
-    background-color: rgba(92, 82, 231, 0.1);
-    
     justify-content: center;
     align-items: center;
 }
@@ -367,11 +371,11 @@ a{
     padding: 20px;
     display: block;
     text-align: center;
-    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.1);
-    border: 1px black solid;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18) ;
     border-radius: 5px ;
     
-    background-color: rgba(92, 82, 231, 0.1);
 }
 #get p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
@@ -424,3 +428,16 @@ a{
 }
   
     }
+
+input:hover{
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18) ;
+}    
+#login:hover{
+    box-shadow: 0px 0px 30px rgba(78, 94, 238, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18) ;
+}
+#pictures img:hover {
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18) ;
+}
